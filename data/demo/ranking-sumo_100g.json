@@ -1,0 +1,13 @@
+{
+  "event": {
+    "id": "6ad6235e409087f1e14cdbc0",
+    "name": "Copa Sorocaba de Robotica 2026"
+  },
+  "category": {
+    "code": "sumo_100g",
+    "name": "Micro sumô 100 g",
+    "max_weight_g": 100,
+    "mode": "partidas"
+  },
+  "ranking": []
+}

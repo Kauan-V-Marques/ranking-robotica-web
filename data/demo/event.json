@@ -1,0 +1,24 @@
+{
+  "id": "6ad6235e409087f1e14cdbc0",
+  "name": "Copa Sorocaba de Robotica 2026",
+  "city": "Sorocaba, SP",
+  "start_date": "2026-11-14",
+  "end_date": "2026-11-15",
+  "categories": {
+    "sumo_3kg": {
+      "name": "Sumô 3 kg autônomo",
+      "mode": "partidas",
+      "records": 7
+    },
+    "sumo_500g": {
+      "name": "Mini sumô 500 g",
+      "mode": "partidas",
+      "records": 3
+    },
+    "seguidor_de_linha": {
+      "name": "Seguidor de linha",
+      "mode": "tempo",
+      "records": 8
+    }
+  }
+}

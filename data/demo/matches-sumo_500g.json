@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6ad6235e409087f1e14cdbd2",
+    "event_id": "6ad6235e409087f1e14cdbc0",
+    "category": "sumo_500g",
+    "round": "classificatoria",
+    "robot_a": "6ad6235e409087f1e14cdbc5",
+    "robot_b": "6ad6235e409087f1e14cdbc6",
+    "score_a": 2,
+    "score_b": 0,
+    "winner": "6ad6235e409087f1e14cdbc5",
+    "played_at": "2026-10-19T14:04:14.644000+00:00",
+    "robot_a_name": "Faisca",
+    "robot_b_name": "Pimenta"
+  },
+  {
+    "id": "6ad6235e409087f1e14cdbd3",
+    "event_id": "6ad6235e409087f1e14cdbc0",
+    "category": "sumo_500g",
+    "round": "classificatoria",
+    "robot_a": "6ad6235e409087f1e14cdbc6",
+    "robot_b": "6ad6235e409087f1e14cdbc7",
+    "score_a": 2,
+    "score_b": 1,
+    "winner": "6ad6235e409087f1e14cdbc6",
+    "played_at": "2026-10-19T14:04:14.644000+00:00",
+    "robot_a_name": "Pimenta",
+    "robot_b_name": "Formiga"
+  },
+  {
+    "id": "6ad6235e409087f1e14cdbd4",
+    "event_id": "6ad6235e409087f1e14cdbc0",
+    "category": "sumo_500g",
+    "round": "classificatoria",
+    "robot_a": "6ad6235e409087f1e14cdbc7",
+    "robot_b": "6ad6235e409087f1e14cdbc5",
+    "score_a": 0,
+    "score_b": 2,
+    "winner": "6ad6235e409087f1e14cdbc5",
+    "played_at": "2026-10-19T14:04:14.644000+00:00",
+    "robot_a_name": "Formiga",
+    "robot_b_name": "Faisca"
+  }
+]

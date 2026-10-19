@@ -1,0 +1,56 @@
+{
+  "event": {
+    "id": "6ad6235e409087f1e14cdbc0",
+    "name": "Copa Sorocaba de Robotica 2026"
+  },
+  "category": {
+    "code": "sumo_500g",
+    "name": "Mini sumô 500 g",
+    "max_weight_g": 500,
+    "mode": "partidas"
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "robot_id": "6ad6235e409087f1e14cdbc5",
+      "robot": "Faisca",
+      "team": "Equipe Alfa",
+      "points": 6,
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "rounds_for": 4,
+      "rounds_against": 0,
+      "round_diff": 4
+    },
+    {
+      "position": 2,
+      "robot_id": "6ad6235e409087f1e14cdbc6",
+      "robot": "Pimenta",
+      "team": "Equipe Beta",
+      "points": 3,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "rounds_for": 2,
+      "rounds_against": 3,
+      "round_diff": -1
+    },
+    {
+      "position": 3,
+      "robot_id": "6ad6235e409087f1e14cdbc7",
+      "robot": "Formiga",
+      "team": "Equipe Gama",
+      "points": 0,
+      "played": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "rounds_for": 1,
+      "rounds_against": 4,
+      "round_diff": -3
+    }
+  ]
+}

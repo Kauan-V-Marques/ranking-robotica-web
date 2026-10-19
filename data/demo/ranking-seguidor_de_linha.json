@@ -1,0 +1,41 @@
+{
+  "event": {
+    "id": "6ad6235e409087f1e14cdbc0",
+    "name": "Copa Sorocaba de Robotica 2026"
+  },
+  "category": {
+    "code": "seguidor_de_linha",
+    "name": "Seguidor de linha",
+    "max_weight_g": 1000,
+    "mode": "tempo"
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "robot_id": "6ad6235e409087f1e14cdbc9",
+      "robot": "Raio",
+      "team": "Equipe Delta",
+      "best_ms": 17620,
+      "average_ms": 18398,
+      "valid_runs": 3
+    },
+    {
+      "position": 2,
+      "robot_id": "6ad6235e409087f1e14cdbc8",
+      "robot": "Cometa",
+      "team": "Equipe Alfa",
+      "best_ms": 18110,
+      "average_ms": 18271,
+      "valid_runs": 2
+    },
+    {
+      "position": 3,
+      "robot_id": "6ad6235e409087f1e14cdbca",
+      "robot": "Coruja",
+      "team": "Equipe Gama",
+      "best_ms": 21004,
+      "average_ms": 21004,
+      "valid_runs": 1
+    }
+  ]
+}

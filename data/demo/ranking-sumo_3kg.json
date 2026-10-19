@@ -1,0 +1,70 @@
+{
+  "event": {
+    "id": "6ad6235e409087f1e14cdbc0",
+    "name": "Copa Sorocaba de Robotica 2026"
+  },
+  "category": {
+    "code": "sumo_3kg",
+    "name": "Sumô 3 kg autônomo",
+    "max_weight_g": 3000,
+    "mode": "partidas"
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "robot_id": "6ad6235e409087f1e14cdbc4",
+      "robot": "Muralha",
+      "team": "Equipe Delta",
+      "points": 10,
+      "played": 4,
+      "wins": 3,
+      "draws": 1,
+      "losses": 0,
+      "rounds_for": 7,
+      "rounds_against": 3,
+      "round_diff": 4
+    },
+    {
+      "position": 2,
+      "robot_id": "6ad6235e409087f1e14cdbc1",
+      "robot": "Tornado",
+      "team": "Equipe Alfa",
+      "points": 6,
+      "played": 4,
+      "wins": 2,
+      "draws": 0,
+      "losses": 2,
+      "rounds_for": 6,
+      "rounds_against": 5,
+      "round_diff": 1
+    },
+    {
+      "position": 3,
+      "robot_id": "6ad6235e409087f1e14cdbc2",
+      "robot": "Rolo Compressor",
+      "team": "Equipe Beta",
+      "points": 4,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "rounds_for": 4,
+      "rounds_against": 3,
+      "round_diff": 1
+    },
+    {
+      "position": 4,
+      "robot_id": "6ad6235e409087f1e14cdbc3",
+      "robot": "Bigorna",
+      "team": "Equipe Gama",
+      "points": 0,
+      "played": 3,
+      "wins": 0,
+      "draws": 0,
+      "losses": 3,
+      "rounds_for": 0,
+      "rounds_against": 6,
+      "round_diff": -6
+    }
+  ]
+}

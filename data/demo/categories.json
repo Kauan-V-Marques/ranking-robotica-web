@@ -1,0 +1,26 @@
+[
+  {
+    "code": "sumo_3kg",
+    "name": "Sumô 3 kg autônomo",
+    "max_weight_g": 3000,
+    "mode": "partidas"
+  },
+  {
+    "code": "sumo_500g",
+    "name": "Mini sumô 500 g",
+    "max_weight_g": 500,
+    "mode": "partidas"
+  },
+  {
+    "code": "sumo_100g",
+    "name": "Micro sumô 100 g",
+    "max_weight_g": 100,
+    "mode": "partidas"
+  },
+  {
+    "code": "seguidor_de_linha",
+    "name": "Seguidor de linha",
+    "max_weight_g": 1000,
+    "mode": "tempo"
+  }
+]
