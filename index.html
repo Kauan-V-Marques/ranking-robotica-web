@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ranking de Robótica</title>
+  <meta name="description" content="Painel com a classificação ao vivo de competições de robótica: sumô e seguidor de linha.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">Ranking de robótica <span id="source-badge" class="badge">…</span></p>
+        <h1 id="event-name">Carregando competição…</h1>
+        <p id="event-info" class="event-info"></p>
+      </div>
+      <div class="hero-controls">
+        <label class="toggle" hidden>
+          <input type="checkbox" id="auto-refresh">
+          Atualizar a cada 15 s
+        </label>
+        <span id="updated-at" class="updated-at"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <nav id="tabs" class="tabs" role="tablist" aria-label="Categorias"></nav>
+
+    <section aria-labelledby="podium-title">
+      <h2 id="podium-title" class="visually-hidden">Pódio</h2>
+      <ol id="podium" class="podium"></ol>
+    </section>
+
+    <section class="card" aria-labelledby="table-title">
+      <div class="card-header">
+        <h2 id="table-title">Classificação</h2>
+        <input id="search" type="search" placeholder="Filtrar por robô ou equipe" aria-label="Filtrar por robô ou equipe">
+      </div>
+      <div class="table-wrap">
+        <table id="ranking-table"></table>
+      </div>
+    </section>
+
+    <section id="matches-section" class="card" aria-labelledby="matches-title" hidden>
+      <div class="card-header">
+        <h2 id="matches-title">Resultados</h2>
+      </div>
+      <ul id="matches" class="matches"></ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    Dados servidos pela <a href="https://github.com/Kauan-V-Marques/robotica-api-flask">Robótica API</a> (Flask + MongoDB).
+    Os dados de demonstração são fictícios.
+    Use <code>?api=http://localhost:8000</code> para conectar a uma API rodando.
+  </footer>
+</body>
+</html>
